@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+}
+
+body{
+    font-family: 'Press Start 2P', cursive;
+    background: hsl(156, 20%, 95.1%);
+    display:flex;
+    align-items: center;
+    justify-content: center;  
+    flex-direction: column;
+}
+
+h1.title{
+    padding: 10px;
+    margin-top: 1.0rem;
+    display: flex;
+    justify-content: center;
+    font-size: 3.5rem;
+    color: hsl(156, 23.4%, 25.1%);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login_logo_image{   
+    width: 400px;
+    height: 400px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#playerName {
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 2rem;
+    width: 15rem;
+    height: 1.5rem;
+    padding: 0.2rem;
+    padding-left: 0.5rem;
+}
+
+#playGame{
+    font-family: 'Press Start 2P', cursive;
+    width: 4rem;
+    height: 2rem;
+
+}
